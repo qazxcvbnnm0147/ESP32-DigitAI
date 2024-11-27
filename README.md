@@ -20,10 +20,10 @@
 - ## Demo 示範
 
 ### 硬體配置
-![硬體配置](https://github.com/qazxcvbnnm0147/ESP32-DigitAI/raw/main/assets/hardware-setup.jpg)
+![硬體配置](https://github.com/qazxcvbnnm0147/ESP32-DigitAI/raw/main/assets/hardware-setup.png)
 
 ### 數字識別過程
-![數字識別](https://github.com/qazxcvbnnm0147/ESP32-DigitAI/raw/main/assets/digit-recognition.jpg)
+![數字識別](https://github.com/qazxcvbnnm0147/ESP32-DigitAI/raw/main/assets/digit-recognition.png)
 
 ### MQTT 數據顯示
-![MQTT 數據](https://github.com/qazxcvbnnm0147/ESP32-DigitAI/raw/main/assets/mqtt-data-display.jpg)
+![MQTT 數據](https://github.com/qazxcvbnnm0147/ESP32-DigitAI/raw/main/assets/mqtt-data-display.png)
