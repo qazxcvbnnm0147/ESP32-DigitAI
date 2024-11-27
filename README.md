@@ -31,6 +31,9 @@
 # ESP32-DigitAI 專案結構
 
 以下是本專案的目錄結構和每個部分的說明：
+
+ESP32-DigitAI/ ├── esp32cam/ # ESP32-CAM 的相關代碼 │ ├── app_camera_esp.c # 相機應用邏輯 │ ├── detection_responder.cpp # 識別結果處理 │ ├── image_provider.cpp # 影像提供者 │ ├── model_data.cpp # TensorFlow Lite 模型數據 │ └── mutiple.ino # 主程序 ├── tensorflow/ # TensorFlow 模型相關文件 │ ├── mnist_model.tflite # 訓練後的壓縮模型 │ ├── tflit_trainning.py # 模型訓練腳本 └── README.md # 專案介紹文件
+
 ### 目錄結構說明：
 
 - **`esp32cam/`**:
