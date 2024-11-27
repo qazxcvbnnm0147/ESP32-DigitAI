@@ -27,3 +27,21 @@
 
 ### MQTT 數據顯示
 ![MQTT 數據](https://github.com/qazxcvbnnm0147/ESP32-DigitAI/raw/main/assets/mqtt-data-display.png)
+
+# ESP32-DigitAI 專案結構
+
+以下是本專案的目錄結構和每個部分的說明：
+### 目錄結構說明：
+
+- **`esp32cam/`**:
+  - 包含了所有與 ESP32-CAM 開發相關的代碼。
+  - **`app_camera_esp.c`**：負責相機應用邏輯，處理影像捕獲和前處理。
+  - **`detection_responder.cpp`**：處理從 TensorFlow Lite 模型返回的識別結果，並進行後續操作。
+  - **`image_provider.cpp`**：提供影像數據給 TensorFlow Lite 模型進行處理。
+  - **`model_data.cpp`**：存儲 TensorFlow Lite 模型的相關數據。
+  - **`mutiple.ino`**：ESP32-CAM 的主程序，控制硬體和執行相機相關的任務。
+
+- **`tensorflow/`**:
+  - 包含了與 TensorFlow 模型訓練和推理相關的文件。
+  - **`mnist_model.tflite`**：訓練後的 TensorFlow Lite 模型，包含了識別手寫數字的能力。
+  - **`tflit_trainning.py`**：用於訓練和量化模型的腳本，將 MNIST 數據集訓練後的模型轉換為 TensorFlow Lite 格式。
