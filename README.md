@@ -23,7 +23,7 @@
 ![硬體配置](https://github.com/qazxcvbnnm0147/ESP32-DigitAI/raw/main/assets/hardware-setup.jpg)
 
 ### 數字識別過程
-![數字識別](https://github.com/qazxcvbnnm0147/ESP32-DigitAI/raw/main/assets/digit-recognition.gif)
+![數字識別](https://github.com/qazxcvbnnm0147/ESP32-DigitAI/raw/main/assets/digit-recognition.jpg)
 
 ### MQTT 數據顯示
 ![MQTT 數據](https://github.com/qazxcvbnnm0147/ESP32-DigitAI/raw/main/assets/mqtt-data-display.jpg)
